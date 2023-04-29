@@ -10,9 +10,6 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:untitled-ontology-4="http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4">
-        <rdfs:authors>Ricardo Arcega Aperte
-Roberto Acha Paz</rdfs:authors>
-        <rdfs:name rdf:resource="https://w3id.org/def/wineOntology"/>
     </owl:Ontology>
     
 
@@ -30,14 +27,33 @@ Roberto Acha Paz</rdfs:authors>
 
     <!-- http://www.w3.org/2000/01/rdf-schema#authors -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#authors"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#authors">
+        <rdfs:comment>Ricardo Arcega Aperte
+Roberto Acha Paz</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:comment>Spain Wine Ontology</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:comment>Wine Ontology</rdfs:comment>
+    </rdf:Description>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#name -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#name">
-        <rdfs:name>wineOnto</rdfs:name>
+        <rdfs:name>SpainWineOntology</rdfs:name>
     </owl:AnnotationProperty>
     
 
@@ -47,6 +63,14 @@ Roberto Acha Paz</rdfs:authors>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+        <owl:versionInfo>1.0</owl:versionInfo>
+    </rdf:Description>
     
 
 
